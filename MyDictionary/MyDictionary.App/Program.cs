@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using MyDictionary.Core;
+using MyDictionary.Core.Data;
+using MyDictionary.Core.Entity;
 //Инициализация списка объектами. Конструктор можно вызывать по разному
 List<Translation> translations = new List<Translation>()
 {
