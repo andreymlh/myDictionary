@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDictionary.Integration", "MyDictionary.App\MyDictionary.Integration.csproj", "{0505FFBA-3A71-4ACF-BEB2-7DEB44F3A6FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDictionary.Integration", "MyDictionary.App\MyDictionary.Integration.csproj", "{0505FFBA-3A71-4ACF-BEB2-7DEB44F3A6FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDictionary.Core", "MyDictionary.Core\MyDictionary.Core.csproj", "{03260C2B-ECBF-447B-8CA4-BA538FE6E22C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDictionary.Core", "MyDictionary.Core\MyDictionary.Core.csproj", "{03260C2B-ECBF-447B-8CA4-BA538FE6E22C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDictinary.App", "WpfApp1\MyDictinary.App.csproj", "{80AD0B59-EEB3-4972-8AF8-E3A4FCAA4750}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{03260C2B-ECBF-447B-8CA4-BA538FE6E22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03260C2B-ECBF-447B-8CA4-BA538FE6E22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03260C2B-ECBF-447B-8CA4-BA538FE6E22C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80AD0B59-EEB3-4972-8AF8-E3A4FCAA4750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80AD0B59-EEB3-4972-8AF8-E3A4FCAA4750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80AD0B59-EEB3-4972-8AF8-E3A4FCAA4750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80AD0B59-EEB3-4972-8AF8-E3A4FCAA4750}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
